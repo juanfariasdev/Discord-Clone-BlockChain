@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Sidebar.module.css";
+import styles from "./Sidebar.module.scss";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";

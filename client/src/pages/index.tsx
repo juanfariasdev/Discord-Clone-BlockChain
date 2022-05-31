@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-import Sidebar from "../components/Sidebar/Sidebar";
+import styles from "../styles/Home.module.scss";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 function Home() {
   return (
