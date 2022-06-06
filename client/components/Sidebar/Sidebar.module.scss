@@ -1,8 +1,11 @@
 .wrapper {
-  height: 100%;
-  overflow-y: scroll;
-  position: relative;
   flex: 1;
-  padding-top: 10px;
+
   min-width: 55px;
+  height: 100%;
+  
+  padding-top: 10px;
+
+  overflow-y: auto;
+  position: relative;
 }
