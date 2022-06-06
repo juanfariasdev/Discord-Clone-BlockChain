@@ -9,33 +9,34 @@ import avatar2 from '../../assets/avatar-2.png'
 import avatar3 from '../../assets/avatar-3.webp'
 import avatar4 from '../../assets/avatar-4.webp'
 import { StaticImageData } from "next/image";
+import { RoomAvatar } from "../RoomAvatar";
 
 
 interface IChannel  {
-  id: number,
-  name: string,
+  roomId: number,
+  roomName: string,
   avatar: StaticImageData,
 }
 
 const dummyChannel:IChannel[] = [
   {
-    id: 1,
-    name: "general",
+    roomId: 1,
+    roomName: "general",
     avatar: avatar1
   },
   {
-    id: 2,
-    name: "random",
+    roomId: 2,
+    roomName: "random",
     avatar: avatar2
   },
   {
-    id: 3,
-    name: "chill",
+    roomId: 3,
+    roomName: "chill",
     avatar: avatar3
   },  
   {
-    id: 4,
-    name: "buildspace",
+    roomId: 4,
+    roomName: "buildspace",
     avatar: avatar4
   }
 ]
