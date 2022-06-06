@@ -1,0 +1,58 @@
+.wrapper {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    .roomAvatar {
+            &::before{
+                content: "";
+                display: block;
+
+                top: 20px;
+                left: -12px;
+
+                width: 17px;
+                height: 20%;
+
+                background: #fff;
+
+                border-radius: 10px;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+
+                position: absolute;
+                transition: var(--transition);
+            }
+
+            &:hover{
+                &::before{
+                    height: 55%;
+                    top: 12px;
+                }
+            }
+    }
+
+    .roomAvatarImage {
+        left: 12px;
+
+        width: 48px;
+        height: 48px;
+
+        background: var(--light-gray);
+
+        border-radius: 100%;
+
+        margin-bottom: 10px;
+
+        position: relative;
+        cursor: pointer;
+        transition: var(--transition);
+
+        &:hover {
+            border-radius: 15px;
+        }
+    }
+}
