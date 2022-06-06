@@ -1,16 +1,19 @@
 .wrapper {
   height: 100vh;
+
   display: flex;
   align-items: flex-start;
 }
 
 .main {
+  display: flex;
+  flex: 25;
+
   height: 100%;
+  width: 100vw;
+  
+  background: var(--light-gray);
+  
   overflow: scroll;
   position: relative;
-  background: red;
-  flex: 25;
-  background: var(--light-gray);
-  display: flex;
-  width: 100vw;
 }
