@@ -55,4 +55,4 @@ const [channels, setChannels] = useState(dummyChannel);
   ))}</div>;
 };
 
-export default Sidebar;
+export { Sidebar };
